@@ -4,28 +4,28 @@
 class Gaiadesk < Formula
   desc "Run commands, copy files and drive screens on your GaiaDesk computers"
   homepage "https://gaiadesk.net"
-  version "0.10.328"
+  version "0.10.329"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.328/gaiadesk-cli-0.10.328-darwin-arm64.tar.gz"
-      sha256 "72809fb17a5d590947aba538b1264894c2634ae43dc38e051e1f83129a1ef07d"
+      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.329/gaiadesk-cli-0.10.329-darwin-arm64.tar.gz"
+      sha256 "0b9ced0d23109023f1ceb5e419ee5da59ba45b0e105bd23aac0593199e230678"
     end
     on_intel do
-      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.328/gaiadesk-cli-0.10.328-darwin-x64.tar.gz"
-      sha256 "b3420817f9e523b1809a66b6df0391dc01f0cbfab67a486958f5e6e3d2646537"
+      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.329/gaiadesk-cli-0.10.329-darwin-x64.tar.gz"
+      sha256 "f1d853e6e9c2d99d15709429e9ff202d2f75b683e175e2cd1619fc2788173dea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.328/gaiadesk-cli-0.10.328-linux-arm64.tar.gz"
-      sha256 "a651ae2938651e885b88bc95ec554ffde883244b6002f3235c619c9303120bbd"
+      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.329/gaiadesk-cli-0.10.329-linux-arm64.tar.gz"
+      sha256 "4d2402fa90d264edad180387c6b885ef5ef1f42647caf5129beda6e8b2f426b0"
     end
     on_intel do
-      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.328/gaiadesk-cli-0.10.328-linux-x64.tar.gz"
-      sha256 "bfafd33ed63c5af8dea434379ba8b34226ffdd5b48428513760c7d64f8881301"
+      url "https://github.com/Gaia-Desk/gaiadesk-releases/releases/download/v0.10.329/gaiadesk-cli-0.10.329-linux-x64.tar.gz"
+      sha256 "6cca674ba18f2cc9c6296cf8193e4dbda567792a84e3717730f0e87cd8f18be3"
     end
   end
 
